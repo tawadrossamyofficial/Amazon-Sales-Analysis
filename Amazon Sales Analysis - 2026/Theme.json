@@ -1,0 +1,42 @@
+{
+    "name": "Light Modern Amazon",
+    "dataColors": ["#FF9900", "#232F3E", "#007185", "#C45500", "#00A8E1", "#565959", "#E47911", "#002F36"],
+    "background": "#F0F2F5",
+    "foreground": "#232F3E",
+    "tableAccent": "#FF9900",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+                "border": [{ "show": true, "color": { "solid": { "color": "#E6E6E6" } }, "radius": 12 }],
+                "visualTooltip": [{ "type": "Default" }],
+                "outspacePane": [{ "backgroundColor": { "solid": { "color": "#F0F2F5" } } }],
+                "dropShadow": [{ 
+                    "show": true, 
+                    "color": { "solid": { "color": "#000000" } }, 
+                    "transparency": 93, 
+                    "blur": 20, 
+                    "direction": "BottomRight" 
+                }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{ "color": { "solid": { "color": "#F0F2F5" } }, "transparency": 0 }]
+            }
+        },
+        "lineChart": {
+            "*": {
+                "line": [{ "strokeWidth": 3, "showMarker": true, "markerSize": 5 }],
+                "categoryAxis": [{ "labelColor": { "solid": { "color": "#565959" } } }],
+                "valueAxis": [{ "labelColor": { "solid": { "color": "#565959" } } }]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "categoryAxis": [{ "labelColor": { "solid": { "color": "#565959" } } }],
+                "valueAxis": [{ "labelColor": { "solid": { "color": "#565959" } } }]
+            }
+        }
+    }
+}
